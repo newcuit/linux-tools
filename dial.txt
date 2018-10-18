@@ -1,0 +1,154 @@
+Sep 21 13:02:05 www daemon.info rild[7883]: rild started.
+Sep 21 13:02:05 www daemon.debug rild[7883]: AT> ATE0V1
+Sep 21 13:02:05 www daemon.debug rild[7883]: AT< ATE0V1^M
+Sep 21 13:02:05 www daemon.debug rild[7883]: AT< OK
+Sep 21 13:02:05 www daemon.debug rild[7883]: AT> AT+CMEE=1
+Sep 21 13:02:05 www daemon.debug rild[7883]: AT< OK
+Sep 21 13:02:05 www daemon.debug rild[7883]: AT> AT+CFUN=1,0
+Sep 21 13:02:05 www daemon.debug rild[7883]: AT< OK
+Sep 21 13:02:14 www daemon.info umtsd[7887]: umtsd started.
+Sep 21 13:02:14 www daemon.debug rild[7883]: change the s_fdCommand from:5 to the:5
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT> AT^HWVER
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT< Part=290  version=1.0
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT< OK
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT> AT+CGMR
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT< EC20CEFAGR06A03M4G_OCPU
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT< OK
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT> AT+CFUN?
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT< +CFUN: 1
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT< OK
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT> AT+GSN
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT< 867732033501818
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT< OK
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT> AT+CPIN?
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT< +CPIN: READY
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT< OK
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT> AT+CIMI
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT< 460038620122595
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT< OK
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT> AT+QCFG="nwscanmode",0
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT< OK
+Sep 21 13:02:14 www daemon.err rild[7883]: unsupported request 64
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT> AT+CREG=2
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT< OK
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT> AT+CGREG=2
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT< OK
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT> AT+CEREG=2
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT< OK
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT> AT+CMGF=0
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT< OK
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT> AT+ICCID
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT< ERROR
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT> AT+CGDCONT=1,"IP","ctlte"
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT< OK
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT> AT+CSQ
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT< +CSQ: 31,99
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT< OK
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT> AT^SYSINFO
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT< ^SYSINFO:2,3,0,2,1
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT< OK
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT> AT+CIMI
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT< 460038620122595
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT< OK
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT> AT+CGDCONT=1,"IP","ctlte"
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT< OK
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT> AT+CSQ
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT< +CSQ: 31,99
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT< OK
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT> AT^SYSINFO
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT< ^SYSINFO:2,3,0,2,1
+Sep 21 13:02:14 www daemon.debug rild[7883]: AT< OK
+Sep 21 13:02:14 www daemon.notice pppd[7888]: pppd 2.4.5 started by root, uid 0
+Sep 21 13:02:15 www local2.info chat[7891]: abort on (NO CARRIER)
+Sep 21 13:02:15 www local2.info chat[7891]: abort on (NO DIALTONE)
+Sep 21 13:02:15 www local2.info chat[7891]: abort on (ERROR)
+Sep 21 13:02:15 www local2.info chat[7891]: abort on (BUSY)
+Sep 21 13:02:15 www local2.info chat[7891]: timeout set to 1 seconds
+Sep 21 13:02:15 www local2.info chat[7891]: send (AT^M)
+Sep 21 13:02:15 www local2.info chat[7891]: expect (OK)
+Sep 21 13:02:15 www local2.info chat[7891]: ^M
+Sep 21 13:02:15 www local2.info chat[7891]: OK
+Sep 21 13:02:15 www local2.info chat[7891]:  -- got it
+Sep 21 13:02:15 www local2.info chat[7891]: send (ATE0V1X1&D2&C1^M)
+Sep 21 13:02:16 www local2.info chat[7891]: expect (OK)
+Sep 21 13:02:16 www local2.info chat[7891]: ^M
+Sep 21 13:02:16 www local2.info chat[7891]: ^M
+Sep 21 13:02:16 www local2.info chat[7891]: OK
+Sep 21 13:02:16 www local2.info chat[7891]:  -- got it
+Sep 21 13:02:16 www local2.info chat[7891]: send (ATDT#777^M)
+Sep 21 13:02:16 www local2.info chat[7891]: timeout set to 15 seconds
+Sep 21 13:02:16 www local2.info chat[7891]: expect (CONNECT)
+Sep 21 13:02:16 www local2.info chat[7891]: ^M
+Sep 21 13:02:16 www local2.info chat[7891]: ^M
+Sep 21 13:02:16 www local2.info chat[7891]: CONNECT
+Sep 21 13:02:16 www local2.info chat[7891]:  -- got it
+Sep 21 13:02:16 www daemon.info pppd[7888]: Serial connection established.
+Sep 21 13:02:16 www daemon.info pppd[7888]: Using interface ppp0
+Sep 21 13:02:17 www daemon.notice pppd[7888]: Connect: ppp0 <--> /dev/modem1/3
+Sep 21 13:02:29 www daemon.debug rild[7883]: AT> AT+CSQ
+Sep 21 13:02:29 www daemon.debug rild[7883]: AT< +CSQ: 31,99
+Sep 21 13:02:29 www daemon.debug rild[7883]: AT< OK
+Sep 21 13:02:29 www daemon.debug rild[7883]: AT> AT^SYSINFO
+Sep 21 13:02:29 www daemon.debug rild[7883]: AT< ^SYSINFO:2,3,0,2,1
+Sep 21 13:02:29 www daemon.debug rild[7883]: AT< OK
+Sep 21 13:02:29 www daemon.debug rild[7883]: AT> AT+COPS=3,0;+COPS?;+COPS=3,1;+COPS?;+COPS=3,2;+COPS?
+Sep 21 13:02:29 www daemon.debug rild[7883]: AT< +COPS: 2,0,"CHN-CT",100
+Sep 21 13:02:29 www daemon.debug rild[7883]: AT< +COPS: 2,1,"CT",100
+Sep 21 13:02:29 www daemon.debug rild[7883]: AT< +COPS: 2,2,"46003",100
+Sep 21 13:02:29 www daemon.debug rild[7883]: AT< OK
+Sep 21 13:02:29 www daemon.debug rild[7883]: AT> AT+CPMS?
+Sep 21 13:02:29 www daemon.debug rild[7883]: AT< +CPMS: "ME",0,99,"ME",0,99,"ME",0,99
+Sep 21 13:02:29 www daemon.debug rild[7883]: AT< OK
+Sep 21 13:02:44 www daemon.debug rild[7883]: AT> AT+CSQ
+Sep 21 13:02:44 www daemon.debug rild[7883]: AT< +CSQ: 31,99
+Sep 21 13:02:44 www daemon.debug rild[7883]: AT< OK
+Sep 21 13:02:44 www daemon.debug rild[7883]: AT> AT^SYSINFO
+Sep 21 13:02:44 www daemon.debug rild[7883]: AT< ^SYSINFO:2,3,0,2,1
+Sep 21 13:02:44 www daemon.debug rild[7883]: AT< OK
+Sep 21 13:02:44 www daemon.debug rild[7883]: AT> AT+CPMS?
+Sep 21 13:02:44 www daemon.debug rild[7883]: AT< +CPMS: "ME",0,99,"ME",0,99,"ME",0,99
+Sep 21 13:02:44 www daemon.debug rild[7883]: AT< OK
+Sep 21 13:02:48 www daemon.warn pppd[7888]: LCP: timeout sending Config-Requests
+Sep 21 13:02:48 www daemon.notice pppd[7888]: Connection terminated.
+Sep 21 13:02:49 www daemon.notice pppd[7888]: Modem hangup
+Sep 21 13:02:49 www daemon.info pppd[7888]: Exit.
+Sep 21 13:02:49 www daemon.debug rild[7883]: AT> ATH0
+Sep 21 13:02:49 www daemon.debug rild[7883]: AT< OK
+Sep 21 13:02:49 www daemon.debug rild[7883]: AT> ATE0V1H0
+Sep 21 13:02:49 www daemon.debug rild[7883]: AT< OK
+Sep 21 13:02:49 www daemon.debug rild[7883]: AT> AT+CPIN?
+Sep 21 13:02:49 www daemon.debug rild[7883]: AT< +CPIN: READY
+Sep 21 13:02:49 www daemon.debug rild[7883]: AT< OK
+Sep 21 13:02:49 www daemon.debug rild[7883]: AT> AT+CSQ
+Sep 21 13:02:49 www daemon.debug rild[7883]: AT< +CSQ: 31,99
+Sep 21 13:02:49 www daemon.debug rild[7883]: AT< OK
+Sep 21 13:02:49 www daemon.debug rild[7883]: AT> AT^SYSINFO
+Sep 21 13:02:49 www daemon.debug rild[7883]: AT< ^SYSINFO:2,3,0,2,1
+Sep 21 13:02:49 www daemon.debug rild[7883]: AT< OK
+Sep 21 13:02:49 www daemon.notice pppd[7903]: pppd 2.4.5 started by root, uid 0
+Sep 21 13:02:50 www local2.info chat[7906]: abort on (NO CARRIER)
+Sep 21 13:02:50 www local2.info chat[7906]: abort on (NO DIALTONE)
+Sep 21 13:02:50 www local2.info chat[7906]: abort on (ERROR)
+Sep 21 13:02:50 www local2.info chat[7906]: abort on (BUSY)
+Sep 21 13:02:50 www local2.info chat[7906]: timeout set to 1 seconds
+Sep 21 13:02:50 www local2.info chat[7906]: send (AT^M)
+Sep 21 13:02:50 www local2.info chat[7906]: expect (OK)
+Sep 21 13:02:50 www local2.info chat[7906]: ^M
+Sep 21 13:02:50 www local2.info chat[7906]: OK
+Sep 21 13:02:50 www local2.info chat[7906]:  -- got it
+Sep 21 13:02:50 www local2.info chat[7906]: send (ATE0V1X1&D2&C1^M)
+Sep 21 13:02:50 www local2.info chat[7906]: expect (OK)
+Sep 21 13:02:50 www local2.info chat[7906]: ^M
+Sep 21 13:02:50 www local2.info chat[7906]: ^M
+Sep 21 13:02:50 www local2.info chat[7906]: OK
+Sep 21 13:02:50 www local2.info chat[7906]:  -- got it
+Sep 21 13:02:50 www local2.info chat[7906]: send (ATDT#777^M)
+Sep 21 13:02:50 www local2.info chat[7906]: timeout set to 15 seconds
+Sep 21 13:02:50 www local2.info chat[7906]: expect (CONNECT)
+Sep 21 13:02:50 www local2.info chat[7906]: ^M
+Sep 21 13:02:50 www local2.info chat[7906]: ^M
+Sep 21 13:02:50 www local2.info chat[7906]: CONNECT
+Sep 21 13:02:50 www local2.info chat[7906]:  -- got it
+Sep 21 13:02:50 www daemon.info pppd[7903]: Serial connection established.
+Sep 21 13:02:50 www daemon.info pppd[7903]: Using interface ppp0
+Sep 21 13:02:50 www daemon.notice pppd[7903]: Connect: ppp0 <--> /dev/modem1/3
