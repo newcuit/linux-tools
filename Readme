@@ -1,1 +1,4 @@
-make_ext4fs -l 32M $1 root-dir/
+1、make_ext4fs -l 32M $1 root-dir/
+2、内存分析文件mem.txt格式， 另一个是elf的反汇编 objdump -axd a.out > a.s
+Alloc    0x200063C0      PC      0x00061A3C      Len     88
+3、mprotect用于设置内存写保护， 检测内存越界
