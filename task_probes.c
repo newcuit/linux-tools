@@ -49,7 +49,7 @@ static int task_handler(char *name, struct task_struct *tsk, struct pt_regs *kre
 	int n = 0, i = 0;
 	unsigned long sp, pc;
 	char buf[BUF_MAX_SIZE];
-    struct stackframe frame;
+	struct stackframe frame;
 	struct pt_regs *uregs = task_pt_regs(tsk);
 
 	printk("--------------------------------------------\n");
@@ -83,6 +83,14 @@ static int task_handler(char *name, struct task_struct *tsk, struct pt_regs *kre
 		} while (sp >= frame.sp && i++ < 4);
 
 		printk("%s\n", buf);
+	}
+
+	printk("user backtrace:");
+	for (sp = tsk->mm->start_stack - 4; sp >= frame.sp;) {
+		get_user(pc, (unsigned long *)(sp));
+		if (pc >= tsk->mm->start_code && pc <= tsk->mm->end_code)
+			printk("\t\t0x%08lx ", pc);
+		sp -= 4;
 	}
 
 	return 0;
